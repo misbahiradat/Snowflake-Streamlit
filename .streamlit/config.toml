@@ -1,1 +1,9 @@
-
+[theme]
+base="light"
+primaryColor="#87CEEB"  # White for the primary interface elements
+backgroundColor="#FFFFFF"  # White for the main background
+secondaryBackgroundColor="#87CEEB"  # Light blue for the sidebar
+textColor="#000000"  # Black text for readability on the light background
+font="sans serif"  # Keeping the sans serif font for a modern look
+buttonHoverColor="#E0F2FF"  # Very light blue for button hover
+buttonActiveColor="#B0E0E6"  # Slightly deeper light blue for button active/tap state
