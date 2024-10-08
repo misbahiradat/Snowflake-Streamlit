@@ -55,7 +55,7 @@ def transform_excel_to_csv(excel_data, sheet_name):
     df_transformed.insert(0, 'Year', sheet_name)
 
     # Locating the condition
-    df_final = df_transformed[(df_transformed['Midstream_System'] .eq( "Star Wars")) & (df_transformed['ENTITY'] .eq ("OKAPI"))]
+    df_final = df_transformed[(df_transformed['Midstream_System'] .eq( "Bracky Branch")) & (df_transformed['ENTITY'] .eq ("CHEMARD"))]
     if not df_final.empty:
         cut_off_index = df_final.index[0]  # Get the first index where the condition is met
         df_transformed = df_transformed.loc[:cut_off_index]  # Keep rows only before the cut-off index
